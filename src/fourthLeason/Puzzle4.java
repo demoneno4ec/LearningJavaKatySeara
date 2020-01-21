@@ -14,10 +14,6 @@ public class Puzzle4 {
             ++x;
         }
 
-        x = 6;
-        while (x > 0) {
-            --x;
-        }
         System.out.println("Результат " + result);
     }
 }
