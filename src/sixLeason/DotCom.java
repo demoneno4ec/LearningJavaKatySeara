@@ -1,9 +1,10 @@
-package fiveLeason;
+package sixLeason;
 
 import java.util.ArrayList;
 
-public class SimpleDotCom {
+public class DotCom {
     private ArrayList<String> locationCells;
+    private String name;
 
     public String checkYourself(String userGuess) {
 
@@ -24,6 +25,10 @@ public class SimpleDotCom {
     }
 
     public void setLocationCells(ArrayList<String> loc) {
-        locationCells = loc;
+        this.locationCells = loc;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
