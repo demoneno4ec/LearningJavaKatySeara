@@ -9,6 +9,7 @@ public class SimpleDotCom {
 
         String status = "мимо";
         for (int cell : locationCells) {
+
             if (cell == quess) {
                 status = "попал";
                 ++numOfHits;
