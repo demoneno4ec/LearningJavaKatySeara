@@ -19,6 +19,13 @@ public class MultiFor {
             if (x == 1){
                 ++x;
             }
+            try{
+                Integer.parseInt("фыв2");
+                Integer test = 2;
+            }catch (NumberFormatException e){
+                System.out.println("Не правильный формат");
+            }
+
         }
     }
 }

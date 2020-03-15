@@ -9,7 +9,6 @@ public class SimpleDotComGame {
         int attempt = 0;
         SimpleDotCom site = new SimpleDotCom();
 
-
         int firstPosition = new Random().nextInt(4);
         //int firstPosition = (int) (Math.random() * 5);
 
@@ -19,7 +18,7 @@ public class SimpleDotComGame {
             siteLocations[arrIndex] = firstPosition + arrIndex;
         }
 
-        site.setLocationCells(siteLocations);
+//        site.setLocationCells(siteLocations);
 
         GameHelper helper = new GameHelper();
         helper.setScanner(new Scanner(System.in));
